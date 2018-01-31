@@ -98,3 +98,6 @@ class Hand(object):
 				for card in self.init_cards:
 						if card.rank == pair[0]:
 							self.init_cards.remove(card)
+def playGoFish():
+	deck1 = Deck()
+	deck1.deal(2, 7)
